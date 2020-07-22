@@ -5,6 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  background: #4c2c50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f77871, #dcdddd);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FD746C, #dcdddd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+p {
+  margin: 10px;
+  text-align: center;
 }
 
 code {
